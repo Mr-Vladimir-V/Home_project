@@ -1,12 +1,33 @@
 .title
-    font-size: 30px
-    font-weight: 700
-    color: #0d0d0d
-    text-align: center
-    text-transform: uppercase
-    &_left
-        color: #ffffff
-        text-align: left
-        font-size: 36px
-        line-height: 1.5
-    
+	font-size: 32px
+	font-weight: 400
+	color: $main-color
+	text-align: center
+	line-height: 1.2
+	margin-top: 35px
+	margin-left: 120px
+	text-transform: uppercase
+.subtitle
+	font-size: 14px
+	font-weight: 400
+	text-align: right
+	margin-right: 235px
+	color: $main-color
+	text-transform: uppercase
+	margin-top: 10px
+	&::before
+		content: ''
+		display: block
+		width: 150px
+		height: 2px
+		background-color: #f9ee6f
+		margin-left: 170px
+	&::after
+		content: ''
+		display: block
+		width: 150px
+		height: 2px
+		background-color: #f9ee6f
+		margin: -23px 635px
+		
+	

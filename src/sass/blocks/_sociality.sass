@@ -1,0 +1,49 @@
+.sociality
+	display: flex
+	justify-content: space-between
+	align-items: center
+	width: 360px
+	margin-left: 400px
+	&::before
+		content: ''
+		display: block
+		width: 280px
+		height: 4px
+		background-color: #8e0b80
+		position: absolute
+		left: 175px
+	&::after
+		content: ''
+		display: block
+		width: 165px
+		height: 4px
+		background-color: #8e0b80
+		position: absolute
+		right: 240px
+
+	&__facebook
+		display: block
+		width: 35px
+		height: 36px
+		background-color: $main-color
+		border-radius: 100%
+		&:hover
+			box-shadow: 5px 5px 30px $main-color
+
+	&__tube
+		display: block
+		width: 35px
+		height: 36px
+		background-color: $main-color			
+		border-radius: 100%
+		&:hover
+			box-shadow: 5px 5px 30px $main-color
+			
+
+	&__descr
+		text-transform: uppercase
+		font-size: 18px
+		font-weight: 400
+		color: #000000
+		
+			
